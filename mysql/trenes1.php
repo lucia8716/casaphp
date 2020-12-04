@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Trenes</h1>
+
+    <form method="POST" action="trenes.php">
+        Numero de tren <input name="numero" type="number"><br>
+        Fecha de compra <input name="fecha_compra" type="date"><br>
+        Km recorridos <input name="km" type="number"><br>
+        <input type="submit"><br>
+    </form>
+    <br><br><br>
+
+    <h1>ESTACIONES</h1>
+    <form method="POST" action="estaciones.php">
+        Codigo de la estacion <input name="numeroestacion" type="number"><br>
+        Nombre <input name="nombre" type="text"><br>
+        Poblacion <input name="poblacion" type="text"><br>
+        <input type="submit"><br>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
