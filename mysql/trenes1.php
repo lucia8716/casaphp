@@ -17,7 +17,12 @@
         Fecha de compra <input name="fecha_compra" type="date"><br>
         Km recorridos <input name="km" type="number"><br>
         <input type="submit"><br></form>
-    <form method="POST" action="trenes_consulta2.php"><input type="submit" name="consulta"></form>
+    <form method="POST" action="trenes_consulta2.php"><input type="submit" value="consulta"></form>
+    <form method="POST" action="trenes_consulta3.php">
+
+        Eliminar billetes con fecha<input name="f_c" type="date"><input type="submit" value="eliminar"></form>
+
+
 
     <br><br><br>
 
