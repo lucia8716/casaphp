@@ -42,6 +42,16 @@
     </form>
 
 
+    <h1>Modificar fecha compra</h1>
+    <form method="POST" action="trenes_consulta4.php">
+        Numero de tren <input name="n1" type="number"><br>
+        La fecha de compra a modificar es <input name="f1" type="date"><br>
+        La nueva fecha de compra es <input name="f2" type="date"><br>
+        <input type="submit"><br>
+    </form>
+
+
+
 
 
 </body>

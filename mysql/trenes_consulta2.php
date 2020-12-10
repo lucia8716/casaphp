@@ -17,3 +17,5 @@ mysqli_close($conexion);
 //
 //select count(*) from estaciones where poblacion="bilbao";
 //select b.nombre,a.numero,a.fecha_compra from estaciones b, trenes a where a.numero in (select distinct numero from recorridos);
+//select e.nombre,t.numero,t.fecha_compra from e, recorridos r, trenes t where t.numero=r.tren and e.cod_estacion=r.estacion
+//from (estaciones e inner join recorridos r on e.cod_estacion=r.estacion)inner join trenes t on t.numero=r.tren)
