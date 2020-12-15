@@ -18,6 +18,13 @@
     <form method="POST" action="consulta1.php">
         <input type="submit" value="consulta1"><br>
     </form>
+    <form method="POST" action="consulta4.php">
+        <input type="submit" value="consulta4"><br>
+    </form>
+    <form method="POST" action="consulta5.php">
+        fecha compra a modificar<input type="date" name="f_c2"><br>
+        <input type="submit" value="consulta5"><br>
+    </form>
 
 
     <br><br>
