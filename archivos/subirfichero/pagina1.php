@@ -8,7 +8,7 @@
 
 <body>
     <H2>Seleccionar un archivo para enviar al servidor</H2>
-    <form action="pagina2.php" method="post" enctype="multipart/form-data">
+    <form action="pagina3.php" method="post" enctype="multipart/form-data">
         Seleccione el archivo:
         <input type="file" name="foto"><br />
         <input type="submit" value="Enviar">
