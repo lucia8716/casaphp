@@ -9,7 +9,7 @@
 
 <body>
 
-    <form method="$_POST" action="pagina4.php">
+    <form method="$_POST" action="pagina3.php">
         numero<input type="number" name="num"><br>
         nombre<input type="text" name="nom"><br>
         jamonyqueso<input type="checkbox" name="jamonyqueso" value="jamonyqueso"><br>
