@@ -1,0 +1,44 @@
+Marca;Carburante;Comunidad autónoma de residencia; Total
+ADRIA;Diesel;Galicia;l
+ALFAROMEO;Diesel;Andalucía;47
+ALFAROMEO;Diesel;Aragón;41
+ALFAROMEO;Diesel;Asturias (Principado de);10
+ALFAROMEO;Diesel;Balears (Illes);6
+ALFAROMEO;Diesel;Canarias;19
+ALFAROMEO;Diesel;Castilla y León;26
+ALFAROMEO;Diesel;Castilla - la Mancha;9
+ALFAROMEO;Diesel;Cataluña;112
+ALFAROMEO;Diesel;Ceuta;1
+ALFAROMEO;Diesel;Comunitat Valenciana;192
+ALFAROMEO;Diesel;Extremadura;5
+ALFAROMEO;Diesel;Galicia;23
+ALFAROMEO;Diesel;Madrid (Comunidad de);162
+ALFAROMEO;Diesel;Murcia (Región de);10
+ALFAROMEO;Diesel;Navarra (Comunidad Foral de);3
+ALFAROMEO;Diesel;País Vasco;7
+ALFAROMEO;Gasolina;Andalucía;14
+ALFAROMEO;Gasolina;Aragón;3
+ALFAROMEO;Gasolina;Asturias (Principado de);1
+ALFAROMEO;Gasolina;Balears (Illes);5
+ALFAROMEO;Gasolina;Canarias;25
+ALFAROMEO;Gasolina;Cantabria;1
+ALFAROMEO;Gasolina;Castilla y León;2
+ALFAROMEO;Gasolina;Castilla - La Mancha;1
+ALFAROMEO;Gasolina;Cataluña;13
+ALFAROMEO;Gasolina;Comunitat Valenciana;10
+ALFAROMEO;Gasolina;Extremadura;1
+ALFAROMEO;Gasolina;Galicia;11
+ALFAROMEO;Gasolina;Madrid  (Comunidad  de);14
+ALFAROMEO;Gasolina;País Vasco;2
+ALLARD;Gasolina;Madrid (Comunidad de);l
+AMGENERALCORP;Gasolina;Andalucía;l
+APICZ;Diesel;Cataluña;l
+APICZ;Diesel;Comunitat Valenciana;l
+APICZ;Gasolina;Murcia (Región   de);l
+ASTONMARTIN;Gasolina;Andalucía;4
+ASTONMARTIN;Gasolina;Balears (Illes);l
+ASTONMARTIN;Gasolina;Castilla y León;l
+ASTONMARTIN;Gasolina;Castilla- La Mancha;l
+ASTONMARTIN;Gasolina;Cataluña;4
+ASTONMARTIN;Gasolina;Comunitat Valenciana;l
+ASTONMARTIN;Gasolina;Madrid (Comunidad de);41
