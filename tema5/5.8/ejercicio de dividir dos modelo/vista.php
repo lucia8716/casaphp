@@ -13,8 +13,8 @@
         </tr>
         <?php foreach ($est as $estu) { ?>
             <tr>
-                <td><?php echo $estu['nombre'] ?></td>
                 <td><?php echo $estu['email'] ?></td>
+                <td><?php echo $estu['nombre'] ?></td>
             </tr>
         <?php } ?>
 
