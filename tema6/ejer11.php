@@ -32,8 +32,6 @@ Nombre Completo: <input type='text' value='$key[contrasena]'/>
 visualizacion;
     }
 
-
-
     ?>
 </body>
 
