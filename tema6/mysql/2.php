@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
     <form method="$_POST"></form>
     <h1>Listado de stock del articulo seleccionado</h1>
     <?php
@@ -25,20 +24,32 @@
 
 
 
+    if (!isset($_POST['select'])) {
+        echo '<form method="post" action="2.php"> <select name="select">';
 
-    echo '<form method="post" action="2.php"> <select name="select">';
 
+        while ($reg = $resultado->fetch_array()) {
+            echo "<option value=$reg[cod]>$reg[nombre_corto]</option>";
+        }
 
-    while ($reg = $resultado->fetch_array()) {
-        echo "<option value=$reg[cod]>$reg[nombre_corto]</option>";
+        echo '</select><input type="submit"></form><br><br>';
     }
-
-    echo '</select><input type="submit"></form><br><br>';
-
-
 
     if (isset($_POST['select'])) {
 
+        echo '<form method="post" action="2.php"> <select name="select">';
+
+
+        while ($reg = $resultado->fetch_array()) {
+
+            if ($reg['cod'] == $_POST['select']) {
+                echo "<option value=$reg[cod] selected>$reg[nombre_corto]</option>";
+            } else {
+                echo "<option value=$reg[cod]>$reg[nombre_corto]</option>";
+            }
+        }
+
+        echo '</select><input type="submit"></form><br><br>';
         echo 'select de combos<br><br>';
         echo '*************************************<br><br>';
 
@@ -49,9 +60,6 @@
     }
 
     $conexion->close();
-
-
-
 
     ?>
 
