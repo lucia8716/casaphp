@@ -9,10 +9,10 @@ class estudiantes
 
     private $est = array();
 
-    public function __construct($est)
-    {
+    protected $property;
 
-        $this->est = $est;
+    public function __construct()
+    {
     }
 
 
