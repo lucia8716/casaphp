@@ -37,3 +37,6 @@ if ($row < 2) {
     $siguiente = $contador + 2;
     echo '<a href="3.php?inicio=' . $siguiente  . '">Anterior</a>';
 }
+
+
+mysqli_close($conexion);
