@@ -1,26 +1,26 @@
 <?php
 
-class estu
+class estudiantes
 {
-
-
     private $est = array();
 
-    public function __construct($est)
+    public function __construct($es)
     {
-        $this->est = $est;
+        $this->est = $es;
     }
 
 
-    function getEstudiantes($conectar)
+    public function get_estudiantes($conexion)
     {
-        $sql = "select * from usuarios";
-        $res = mysqli_query($conectar, $sql);
 
-        while ($re = mysqli_fetch_array($res)) {
+        $resultado = mysqli_query($conexion, 'SELECT * FROM usuarios');
 
-            $this->est[] = $re;
+
+        while ($reg = mysqli_fetch_array($resultado)) {
+
+            $this->est[] = $reg;
         }
+
         return $this->est;
     }
 }

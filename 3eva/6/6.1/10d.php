@@ -7,8 +7,8 @@ $conectar = $r1->conectar();
 
 require('10b.php');
 $est = array();
-$r2 = new estu($est);
-$est = $r2->getEstudiantes($conectar);
+$r2 = new estudiantes($est);
+$est = $r2->get_estudiantes($conectar);
 
 require('10c.php');
 
